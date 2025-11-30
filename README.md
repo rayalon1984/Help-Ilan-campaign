@@ -28,6 +28,23 @@
 
 [https://rayalon1984.github.io/Help-Ilan-campaign/](https://rayalon1984.github.io/Help-Ilan-campaign/)
 
+## 📊 מעקב תרומות
+
+העמוד מבקש מתורמים לציין את שמם בהעברה הבנקאית. כלי מעקב פנימי זמין ב-`donations-tracker.html` (פתח בדפדפן מקומי):
+- מעקב אחר תורמים וסכומים
+- חישוב אוטומטי של אחוז התקדמות
+- ייצוא ל-CSV לגיבוי
+- הנתונים נשמרים ב-localStorage (רק במחשב שלך)
+
 ---
 
-*פרויקט קוד פתוח שנבנה עם HTML, CSS ו-JavaScript טהור. ללא תלויות חיצוניות.*
+## Tech Stack
+
+Open-source project built with vanilla HTML, CSS, and JavaScript. No external dependencies.
+
+### Features
+- Responsive design (mobile & desktop)
+- RTL support for Hebrew
+- Interactive progress tracking
+- Social sharing integration
+- Clean, accessible code
