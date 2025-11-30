@@ -246,6 +246,34 @@
             transform: translateY(0);
         }
 
+        .paybox-btn {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.1em;
+            border-radius: 30px;
+            cursor: pointer;
+            width: 100%;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .paybox-btn:hover {
+            background: linear-gradient(135deg, #ee5a6f 0%, #ff6b6b 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 7px 20px rgba(0,0,0,0.3);
+        }
+
+        .paybox-btn:active {
+            transform: translateY(0);
+        }
+
         .alert {
             background: #4caf50;
             color: white;
@@ -458,6 +486,10 @@
                 <button class="copy-btn" onclick="copyBankDetails()">
                     📋 העתק פרטי העברה
                 </button>
+
+                <a href="https://links.payboxapp.com/P76EqYXEIYb" target="_blank" class="paybox-btn">
+                    💳 תרום דרך PayBox
+                </a>
 
                 <div class="alert" id="copyAlert">פרטי ההעברה הועתקו! 📋✅</div>
             </div>
